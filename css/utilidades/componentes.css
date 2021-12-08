@@ -1,0 +1,27 @@
+.botao a {
+padding: 16px 32px;
+display: inline-block;
+background-color: #fb0;
+border-radius: 4px;
+text-transform: uppercase;
+color: #332200;
+font-size: 18px;
+line-height: 1.33;
+font-weight: bold;
+font-family: 'Poppins';
+font-weight: 600;
+}
+
+.botao:hover {
+background-color: rgb(104, 78, 6);
+transition: 1s;
+color: #fb0;
+}
+
+@media (max-width:600px) {
+.botao a {
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 16px;
+}
+}
