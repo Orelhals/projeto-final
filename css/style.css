@@ -1,8 +1,12 @@
 @import "./reset.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
 @import "./header.css";
+
+/* Home */
 @import "./home/introducao.css";
 
-/* UTILIDADES */
+/* Utilidades */
 @import "./utilidades/componentes.css"
 
 
